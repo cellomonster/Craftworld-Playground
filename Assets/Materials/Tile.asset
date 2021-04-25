@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb3625e53ad55641b3fe5b40f2a85bf, type: 3}
+  m_Name: Tile
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: f87b764151cb7a045acf06ef6cd6a3e1, type: 2}
+  density: 2
+  physicsMaterial: {fileID: 6200000, guid: f11a862a920cf2a46a76b9996049d0f0, type: 2}
+  icon: {fileID: 2800000, guid: 46cdc7b59bc68394ab2e9f5c815831cc, type: 3}

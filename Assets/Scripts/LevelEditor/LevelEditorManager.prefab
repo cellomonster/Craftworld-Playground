@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8425870785240260218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8425870785240260216}
+  - component: {fileID: 8425870785240260219}
+  - component: {fileID: 8425870785240260217}
+  - component: {fileID: 8425870785240260222}
+  m_Layer: 0
+  m_Name: LevelEditorManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8425870785240260216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8425870785240260218}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.6, z: 3.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8425870785240260219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8425870785240260218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88aebd9dd176304e96e0a7fa140611e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  availableMaterials:
+  - {fileID: 11400000, guid: 57c61b18fa718b24690c0f83a4b4aa61, type: 2}
+  - {fileID: 11400000, guid: b2f249a97fada9142b0797856c6b5d21, type: 2}
+  - {fileID: 11400000, guid: 64127283ce468774e95d20480968750e, type: 2}
+  - {fileID: 11400000, guid: b24bf63c43594f146974746e90206bf1, type: 2}
+  - {fileID: 11400000, guid: 1db286d3d409241479e83967caeecd26, type: 2}
+  - {fileID: 11400000, guid: 3005af115919e814284b407d4541f6b8, type: 2}
+  - {fileID: 11400000, guid: 4edef129dee90844c9bfc941104e37d2, type: 2}
+  - {fileID: 11400000, guid: 0325849b3c686b24f869fbb1e6e0be74, type: 2}
+  brushShapeIcons:
+  - {fileID: 2800000, guid: 70b8265ce4b144441b83df8c81b2488f, type: 3}
+  - {fileID: 2800000, guid: 7bac772c3d904a04ebb691c845f99167, type: 3}
+  - {fileID: 2800000, guid: f6d294d56c2e2b5469f1a6f4dcbe247f, type: 3}
+  - {fileID: 2800000, guid: 47b286a8eb24a4942b2c7a709c28ab5f, type: 3}
+--- !u!114 &8425870785240260217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8425870785240260218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: c1b646d40f6832e4497706ae3dad09dc,
+    type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8425870785240260219}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: HandleTweak
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: eea0b47a-d972-48c4-8f42-a19e6374c0a8
+    m_ActionName: LevelEditor/Tweak[/Keyboard/b]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8425870785240260219}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: HandleEscape
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 736136ca-daa7-4938-a3e2-431fded1b984
+    m_ActionName: LevelEditor/Escape[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8425870785240260219}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: HandleDelete
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 1d8d0ace-6a73-4504-89aa-b3ca0ad453ca
+    m_ActionName: LevelEditor/Delete[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8425870785240260219}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: HandleConfirm
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 93e37fc1-e0f3-4a5f-96e6-d6cbe5400293
+    m_ActionName: LevelEditor/Confirm[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8425870785240260219}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: HandleCursorMoved
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 161c956b-8dc2-4ff4-b675-8047248c4e2d
+    m_ActionName: LevelEditor/CursorMove[/Mouse/delta]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8425870785240260219}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: HandleSelectMaterial
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c470f590-b29f-49d3-8c10-d5b286582841
+    m_ActionName: LevelEditor/MaterialSelect[/Mouse/scroll/y]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8425870785240260219}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: HandlePause
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 5207d036-ef45-4785-b0be-c95ef63b6889
+    m_ActionName: LevelEditor/Pause[/Keyboard/p]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8425870785240260219}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: HandleLayerChange
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: a1c2da29-ce4c-4c85-9260-cd0902893725
+    m_ActionName: LevelEditor/Change Layer[/Keyboard/s,/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8425870785240260219}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: HandleThicknessChange
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: a773e7a8-3c78-481d-881c-6febf8c98bcd
+    m_ActionName: LevelEditor/Change Thickness[/Keyboard/d,/Keyboard/e]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: Keyboard&Mouse
+  m_DefaultActionMap: LevelEditor
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &8425870785240260222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8425870785240260218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 982a82d99ada0bd408b85440e6bffe18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb3625e53ad55641b3fe5b40f2a85bf, type: 3}
+  m_Name: Metal
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 791129c7c0d878f488d0f1be8f714e8e, type: 2}
+  density: 2
+  physicsMaterial: {fileID: 6200000, guid: 3f7f847679127be46a4410d62158c3d0, type: 2}
+  icon: {fileID: 2800000, guid: 9f779cfa756224a47b8fd25b36da0823, type: 3}
