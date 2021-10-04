@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1def08ba727704ddd9b59e520405a43b, type: 3}
+  m_Name: tool tooltray
+  m_EditorClassIdentifier: 
+  entries:
+  - {fileID: 11400000, guid: 7bbe94a3512764790bb501ba849b916b, type: 2}
+  - {fileID: 11400000, guid: 5255515fb6cd94bf6bcd0cbba56e71a4, type: 2}
+  - {fileID: 11400000, guid: 1e1d0bf6b53a04af59f658dfbbbc680d, type: 2}
+  - {fileID: 11400000, guid: 9ed145860539f48119b6609baa1fb5b7, type: 2}

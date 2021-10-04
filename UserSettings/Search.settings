@@ -7,6 +7,9 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"last_search.91531927" = "type:EventSystem"
+	"OpenInspectorPreview.91531927" = "0"
+	"currentGroup.91531927" = "scene"
 }
 providers = {
 	asset = {
@@ -44,10 +47,28 @@ providers = {
 		priority = 100
 		defaultAction = null
 	}
+	expression = {
+		active = true
+		priority = 2
+		defaultAction = null
+	}
+	adb = {
+		active = false
+		priority = 2500
+		defaultAction = null
+	}
+	performance = {
+		active = false
+		priority = 100
+		defaultAction = null
+	}
 }
 recentSearches = [
+	"type:EventSystem"
 ]
 searchItemFavorites = [
 ]
 savedSearchesSortOrder = 0
 showSavedSearchPanel = false
+expandedQueries = [
+]

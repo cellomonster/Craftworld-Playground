@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cb3625e53ad55641b3fe5b40f2a85bf, type: 3}
-  m_Name: Wood
+  m_Name: wood
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 9ab7e88e47f0fd84e9095beee1f3362c, type: 2}
+  name: wood
+  description: 
+  icon: {fileID: -1650851092, guid: fa4a70ce744d74574b54dc3aa4a6bec6, type: 3}
+  material: {fileID: 2100000, guid: 2421bda72cd4543048077bd2bec996a0, type: 2}
   density: 1
-  physicsMaterial: {fileID: 6200000, guid: 8a666a7132f17fd44afe1077f047d312, type: 2}
-  icon: {fileID: 2800000, guid: 3f27b9bea0f3c0d46b6baa03710088a0, type: 3}
+  physicsMaterial: {fileID: 6200000, guid: a354bc8cde8114493832da8fb93395a1, type: 2}

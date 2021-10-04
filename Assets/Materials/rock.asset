@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb3625e53ad55641b3fe5b40f2a85bf, type: 3}
+  m_Name: rock
+  m_EditorClassIdentifier: 
+  name: stone
+  description: 
+  icon: {fileID: 1876005835, guid: fa4a70ce744d74574b54dc3aa4a6bec6, type: 3}
+  material: {fileID: 2100000, guid: 66b25b22f362a4ef99969504d541cefb, type: 2}
+  density: 2
+  physicsMaterial: {fileID: 6200000, guid: d7f4b1d4e5f074e618399f76786014c3, type: 2}
